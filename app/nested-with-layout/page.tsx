@@ -17,7 +17,7 @@ export default async function Home() {
 
   return (
     <div>
-      <h1>Edge Runtime - Page inside (group-with-layout)</h1>
+      <h1>Edge Runtime + Nested + With Layout</h1>
       {pokemons.map((pokemon) => (
         <div key={pokemon.name}>
           <h2>{pokemon.name}</h2>
